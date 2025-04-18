@@ -46,6 +46,51 @@ Além disso, o experimento desenvolvido por Mach-Zender permite a aplicação di
 
 ## Etapa 3
 
+### Testes com o segundo Beam Splitter:
+
+No capítulo “The Mach-Zehnder Interferometer” no livro Quantum Mechanis: The Theoretical Minimum de Leonard Sussekind e Art Friedman, o segundo Beam Splitterr tem a função de recombinar os caminhos que foram previamente colocados em superposição. Tal recombinação é o que permite a ocorrência da interferência quântica, já que o fóton pode interagir consigo mesmo, dependendo da fase adquirida nos dois caminhos. 
+
+#### Segundo Beam Splitter ativado:
+
+Com o segundo Beam Splitter, os dois estados se sobrepõem novamente, e essa interferência determina em qual detector o fóton será mais provável de ser captado. A partir da fase introduzida, o fóton terá uma alta probabilidade de serem detectados em um determinado detector e quase nunca no outro (100% Detector1, 0% Detector2).
+
+Exemplo de resultado (sem fase): 
+- Detector 1: 100%
+- Detector 2: 0%
+  
+Isso mostra que os dois caminhos possíveis do fóton interferem entre si, criando um estado de superposição coerente, como  1/√2(∣0⟩+∣1⟩), que evolui com interferência construtiva ou destrutiva dependendo da fase
+
+#### Segundo Beam Splitter removido:
+
+Quando o segundo Beam Splitter é removido, a superposição não ocorre mais no segundo ponto do circuito. O fóton passa por um dos dois caminhos, mas não interfere consigo mesmo no final. Isso leva a probabilidades clássicas de detecção.
+
+Exemplo de resultado estimado: 
+- Detector 1: 50%
+- Detector 2: 50%
+  
+Cada caminho leva diretamente a um detector, e como não há interferência, os fótons se comportam como se escolhessem aleatoriamente o caminho.
+
+## Explique
+
+> Quais são as probabilidades observadas ou estimadas em cada cenário ?
+>
+
+Cenário com o segundo Beam Splitter:
+	Interferência total  100% em um detector, 0% no outro (dependendo da fase).
+ 
+Cenário sem o segundo Beam Splitter:
+	Detecção aleatória clássica  50% em cada detector.
+
+> Por que a probabilidade muda ao remover o segundo Beam Splitter ?
+>
+
+Pois o segundo Beam Splitter é o responsável por recombinar os caminhos e permitir que a interferência ocorra. Ao remove-lo, a coerência quântica é destruída e os caminhos tornam-se distinguíveis. Isso impede a superposição quântica final, resultando em um comportamento puramente probabilístico, como na física clássica.
+
+> Isso representa o colapso de qual tipo de estado ?
+>
+
+O colapso acontece do estado de superposição coerente (com interferência) para um estado clássico (sem interferência). Na computação quântica, se passa de um estado quântico puro para um estado colapsado, como se tivesse feito uma medição antecipada ao tornar os caminhos distinguíveis.
+
 ## Etapa 4
 
 ## Etapa 5
@@ -55,3 +100,5 @@ Além disso, o experimento desenvolvido por Mach-Zender permite a aplicação di
 Hughes, C., Isaacson, J., Perry, A., Sun, R.F., Turner, J. (2021). Creating Superposition: The Beam Splitter. In: Quantum Computing for the Quantum Curious. Springer, Cham. [https://doi.org/10.1007/978-3-030-61601-4_3](https://doi.org/10.1007/978-3-030-61601-4_3)
 
 Hughes, C., Isaacson, J., Perry, A., Sun, R.F., Turner, J. (2021). Quantum Gates. In: Quantum Computing for the Quantum Curious. Springer, Cham. https://doi.org/10.1007/978-3-030-61601-4_6
+
+Susskind, L., & Friedman, A. (2014). Quantum Mechanics: The Theoretical Minimum. Basic Books.
