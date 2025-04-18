@@ -1,9 +1,8 @@
 # CP02 - Quântica
 
-Matéria: Quântica
-Entrega: May 2, 2025
-Tipo: Checkpoint
-to-do: No
+- Matéria: Quântica
+- Entrega: May 2, 2025
+- Tipo: Checkpoint
 
 ## Etapa 1
 
